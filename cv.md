@@ -32,10 +32,9 @@ levels.forEach(item => addEventListener('click', difficultyLevel));
 
 ## Experience
 My Progects:
-
-	* [HTML/CSS- landing page](https://webheroschool.github.io/LOCO-3--html/)
-	* [HTML/CSS- The site was created to train HTML/CSS skills](https://alina1317.github.io/dreamMaker/)
-	* [JavaScript - Game "Find bag"](https://webheroschool.github.io/cardBagg/) 
+* [HTML/CSS- landing page](https://webheroschool.github.io/LOCO-3--html/)
+* [HTML/CSS- The site was created to train HTML/CSS skills](https://alina1317.github.io/dreamMaker/)
+* [JavaScript - Game "Find bag"](https://webheroschool.github.io/cardBagg/) 
 
 ## Education
 * Git/HTLM/CSS/JS/React courses in WebHero School
