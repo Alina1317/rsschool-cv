@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Maitree:wght@400;500;700&display=swap');
+
+.container {
+  margin: 0 auto;
+  max-width: 1024px;
+  min-width: 320px;
+  font-family: 'Maitree', serif;
+}
+
+.name-text {
+  margin: 0 0 10px 0;
+}
+
+.name-text__name {
+  margin: 0;
+}
+
+.name-foto {
+  max-width: 400px;
+  max-height: 430px;
+}
+
+.name-text__loc {
+  color: #000;
+}
+
+.loc {
+  width: 50px;
+}
+
+.code-example__text {
+  background-color: #e0e0e0;
+  max-width: 600px;
+  height: 215px;
+}
+
+.list-list__link {
+  color: #000;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e0e0e0;
+  max-width: 1024px;
+  height: 85px;
+}
+
+.social {
+  display: flex;
+  width: 512px;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.social__link {
+  text-decoration: none;
+}
+
+.social__foto {
+  max-width: 45px;
+}
+
+@media (max-width: 600px) {
+  .code-example__code {
+    font-size: 10px;
+  }
+
+  .code-example__text {
+    max-width: 450px;
+  }
+}
+
+@media (max-width: 480px) {
+  .name-foto {
+    max-width: 300px;
+    max-height: 330px;
+  }
+
+  .code-example__text {
+    max-width: 320px;
+  }
+
+  .code-example__code {
+    font-size: 7px;
+  }
+}
