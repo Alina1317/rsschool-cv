@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,400;1,500;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="container">
+    <header class="name-text">
+      <h1 class="name-text__name">Alina Doroshenko</h1>
+      <a class="name-text__loc" href="https://www.google.com/maps/place/%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0/@55.5807481,36.8251304,9z/data=!3m1!4b1!4m5!3m4!1s0x46b54afc73d4b0c9:0x3d44d6cc5757cf4c!8m2!3d55.755826!4d37.6172999"><img class="loc" src="img/loc.png" alt="location">Russia, Moscow</a>
+    </header>
+    <section class="name">
+      <img class="name-foto" src="img/foto-1.jpg" alt="foto">
+      <h3 class="about__title">About me</h3>
+      <p class="about__text">
+        I always like to learn something new.<br>I’ve been studying frontend development for about a year.<br>It’s not easy but I don’t give up.<br>I would like to get a job as a front end developer.
+      </p>
+      <h3 class="skills__title">Skills</h3>
+      <ol>
+        <li>
+          Git
+        </li>
+        <li>
+          HTML
+        </li>
+        <li>
+          CSS
+        </li>
+        <li>
+          JavaScript
+        </li>
+        <li>
+          React (under study)
+        </li>
+      </ol>
+      <h3 class="code-example__title">Code example</h3>
+        <pre class="code-example__text">
+        <code class="code-example__code">
+          const difficultyLevel = e => {
+            levels.forEach(item => item.classList.remove('active-level'));
+            e.target.classList.add('active-level');
+            level = e.target.dataset.level;
+
+            let three = document.querySelector('[data-level="3"]');
+            if (!e.target.dataset.level) {
+              level = 3;
+              three.classList.add('active-level');
+            }
+          };
+          levels.forEach(item => addEventListener('click', difficultyLevel));
+        </code>
+      </pre>
+      <h3 class="experience__title">Experience</h3>
+      <span class="experience__text">My projects:</span>
+      <ul class="list">
+        <li class="list-list">
+          <a class="list-list__link" href="https://webheroschool.github.io/LOCO-3--html/" target="_blank" title="HTML/CSS-landing page">HTML/CSS-landing page</a>
+        </li>
+        <li>
+          <a class="list-list__link" href="https://alina1317.github.io/dreamMaker/" target="_blank" title="HTML/CSS- The site was created to train HTML/CSS skills">HTML/CSS- The site was created to train HTML/CSS skills</a>
+        </li>
+        <li>
+          <a class="list-list__link" href="https://webheroschool.github.io/cardBagg/" target="_blank" title="JavaScript - Game “Find bag”">JavaScript - Game “Find bag”</a>
+        </li>
+      </ul>
+      <h3 class="education__title">Education</h3>
+      <ul>
+        <li>Git/HTLM/CSS/JS/React courses in WebHero School</li>
+      </ul>
+      <h3 class="english__title">English</h3>
+      <p class="english__text">Elementary - A2 </p>
+    </section>
+    <footer class="footer">
+      <div class="social">
+        <a class="social__link" href="https://t.me/Alina8627" target="_blank">
+          <img class="social__foto" src="img/tg.png" alt="telegram">
+        </a>
+        <a class="social__link" href="https://vk.com/alina8627" target="_blank">
+          <img class="social__foto" src="img/vk.png" alt="vk">
+        </a>
+        <a class="social__link" href="https://www.instagram.com/_le_ali_/?hl=ru" target="_blank">
+          <img class="social__foto" src="img/inst.png" alt="instagram">
+        </a>  
+        <a class="social__link" href="https://github.com/Alina1317" target="_blank">
+          <img class="social__foto" src="img/gh.png" alt="github">
+        </a>
+      </div>
+    </footer>
+  </main>
+</body>
+</html>
